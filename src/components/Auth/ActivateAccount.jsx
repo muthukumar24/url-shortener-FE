@@ -27,7 +27,7 @@ const ActivateAccount = () => {
   }, [token, hasActivated]);
 
   return (
-    <div className="container py-5">
+    <div className="container activation-msg py-5">
       <div className="row justify-content-center">
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div className='container py-3'>
