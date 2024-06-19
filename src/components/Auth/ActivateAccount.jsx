@@ -17,6 +17,9 @@ const ActivateAccount = () => {
         const response = await axios.get(`https://url-shortener-be-pb6m.onrender.com/auth/activate/${token}`);
         setMessage(response.data.message);
         console.log('Activation response received');
+        setTimeout(() => {
+          window.close();
+        }, 3000)
       } catch (err) {
         setMessage(err.response.data.message);
         console.log('Activation error received');
