@@ -25,6 +25,7 @@ const UrlList = () => {
       <div className="row d-flex justify-content-center">
         <div className="col-sm-11 col-md-10 col-lg-10 col-xl-10">
           <h2 className='text-center'>URL List</h2>
+          <div className='table-responsive'>
           <table className="table table-striped table-bordered">
             <thead>
               <tr>
@@ -48,6 +49,8 @@ const UrlList = () => {
           <button className='btn btn-outline-primary'>Back</button>
         </Link>
       </div>
+          </div>
+          
         </div>
       </div>
     </div>
