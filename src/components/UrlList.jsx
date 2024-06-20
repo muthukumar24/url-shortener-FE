@@ -44,11 +44,12 @@ const UrlList = () => {
               ))}
             </tbody>
           </table>
-          <div className='d-flex justify-content-center mt-3'>
-        <Link to={'/dashboard'}>
-          <button className='btn btn-outline-primary'>Back</button>
-        </Link>
-      </div>
+          
+          </div>
+         <div className='d-flex justify-content-center mt-3'>
+           <Link to={'/dashboard'}>
+            <button className='btn btn-outline-primary'>Back</button>
+          </Link>
           </div>
           
         </div>
